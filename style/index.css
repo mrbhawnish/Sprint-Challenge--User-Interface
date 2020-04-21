@@ -253,3 +253,45 @@ footer nav a {
     padding: 50px;
     margin: 1rem;
 }
+@media(max-width: 500px){
+     .nav-items .item{
+    background-color: lightgray ;
+    padding: 10px;
+    border-radius: 3px;
+
+    }
+  }
+
+@media(max-width: 500px){
+    .nav-items, .container, .text-container, .middle-content, .first-five{
+      display: flex;
+      flex-direction: column; 
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+      align-content: center;
+      height: auto;
+      background-color: ;
+
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    .nav-items .items, .top-content{
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-content: center;
+      position: relative
+    }
+  }
+
+  @media (max-width: 500px){
+    .box5, .second-section, .bottom-content, footer {
+        display: none;
+        flex-direction: column;
+        width: auto; 
+      }
+
+  }
